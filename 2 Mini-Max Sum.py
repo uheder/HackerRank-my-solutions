@@ -21,7 +21,7 @@ def miniMaxSum(arr):
         n = sum_array - i
         if n > maxN:
             maxN = n
-        elif n < minN:
+        if n < minN:
             minN = n
         
     print(minN, maxN)
