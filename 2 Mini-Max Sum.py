@@ -32,4 +32,4 @@ if __name__ == '__main__':
     miniMaxSum(arr)
 
 
-#test failed 1/15 test cases
+#All tests passed
